@@ -5,8 +5,8 @@ Features
 -  Search for english words to retrieve: Definitions, Phonetics and Part of speech
 
 Technologies Used 
-Programming Languages: HTML, CSS and Javascript
-API used: Free Dictionary API. 
+- Programming Languages: HTML, CSS and Javascript
+- API used: Free Dictionary API. 
 
 Api Documentation
 - Free Dictionary API  https://dictionaryapi.dev/
@@ -21,10 +21,10 @@ Online
 - By using this link https://www.lilalajemima.tech
 
 Challenges I had and Solutions
--Handling Errors
+- Handling Errors
 Users initially  received no feedback when entering invalid words -> Added error handling to display a user-friendly error message when a word is not found.
 
--Missing Data
+- Missing Data
 Some words do not have full information like parts of speech -> The script has conditional rendering so only available information is displayed preventing the app from crashing.
 
 Credits
