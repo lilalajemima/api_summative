@@ -22,7 +22,10 @@ Online
 
 Challenges I had and Solutions
 -Handling Errors
-Users initially  received no feedback when entering invalid or non-existent words -> Added error handling to display a user-friendly error message when a word is not found.
+Users initially  received no feedback when entering invalid words -> Added error handling to display a user-friendly error message when a word is not found.
+
+-Missing Data
+Some words do not have full information like parts of speech -> The script has conditional rendering so only available information is displayed preventing the app from crashing.
 
 Credits
 - API: Free Dictionary API
